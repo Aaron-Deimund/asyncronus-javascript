@@ -1,6 +1,3 @@
-const token =
-	"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI2IiwidW5pcXVlX25hbWUiOiJhcGlfYWRtaW4iLCJyb2xlIjoiYWRtaW4iLCJuYmYiOjE3MzgxNjE0ODQsImV4cCI6MTczODI0Nzg4NCwiaWF0IjoxNzM4MTYxNDg0fQ.950kBFyiydLGhOm0BqGGJZYyYYVCvu7tjDd9niY2vkWeES_NC6NM9laU1tuZ5n79Bq2Mpt5-wRKcta152D-pqg";
-
 function getBasicSNRows() {
 	const query = this.inputElement.value;
 	const fetchUrl = `https://api.truemfg.com/api/SerialNumber/${query}/basic`;
@@ -94,13 +91,3 @@ function getAdditionalSNData(serialNumber) {
 
 	return additionalRows;
 }
-
-function createTable(){
-	let output = document.getElementById("output");
-	let content = "<p>hello</p>";
-	output.innerHTML = content;
-}
-
-document.getElementById("fetch").addEventListener("click", () => {
-	createTable();
-});
