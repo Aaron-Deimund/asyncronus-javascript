@@ -1,0 +1,17 @@
+body{
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+}
+
+form{
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: 4fr 8fr;
+	height: max-content;
+	gap: 10px;
+	width: 400px;
+}
+
