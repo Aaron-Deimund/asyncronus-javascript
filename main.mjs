@@ -1,4 +1,4 @@
-import { createTable } from "./js_modules/callbackHell.mjs";
+import { createTable } from "./js_modules/fetch.mjs";
 
 document.getElementById("fetch").addEventListener("click", (e) => {
 	e.preventDefault();
